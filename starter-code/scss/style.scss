@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", OpenSans, sans-serif;
+    body {
+        background-color: white;
+        
+        nav {
+            background-color: #C12127;
+            color: rgba(255,255,255,0.8);
+            display: flex;
+            flex: 1;
+            justify-content: space-between;
+            align-items: center;
+            height: 40px;  
+            a {
+                color: rgba(255,255,255,0.8);
+                text-decoration: none;
+            }
+            .top-left {
+                margin: 0px 0px 0px 20px;
+            }
+            .top-links {
+                display: flex;
+                padding: 0;
+                margin: 0px 20px 0px 0px;
+                li {
+                    list-style: none;
+                    margin: 0 10px;
+                }
+            }
+        }
+
+        .section-head {
+            height: 450px;
+            background-image: url("../images/city-scape.svg");
+            background-size: cover;
+            div {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                .content {
+                    display: flex;
+                    flex-direction: column;
+                    width: 50%;
+                    h2 {
+                        margin: 100px 0px 10px 0px;
+                        color: white;
+                        font-weight: 500;
+                        font-size: 2.3rem;
+                    }
+                    p {
+                        color: white;
+                        width:57%;
+                    }
+                    button {
+                        height:40px;
+                        border-radius: 50px;
+                        color: white;
+                        margin-top: 30px;
+                        border: none;
+                        &.orange {
+                            width: 150px;
+                            background-color: #fd8d00;
+                        }
+                    }
+                }
+            }
+            .search-bar {
+                display: flex;
+                align-items:center;
+                .npm {
+                    width: 110px;
+                    height: 50px;
+                    margin: 10px 0px 0px 20px;
+                }
+                input {
+                    height: 50px;
+                    margin: 10px 0px 0px 20px;
+                    width: 80%;
+                    background-color: #055271;
+                    border: solid 1px #1e5d79;
+                    padding: 10px;
+                    &:placeholder{
+                        margin: 15px 0px 0px 0px;
+                        color: red;
+                    }
+                }
+                p {
+                    color: white;
+                    margin: 0px 0px 0px 10px;
+                }
+                
+                .teddy {
+                    width:35px;
+                    height: 35px;
+                    margin: 0px 0px 0px 10px;
+                }
+            }
+            & ~ .section-head:nth-of-type(1){
+                height: 450px;
+                background: #24354a url("../images/collaboration.svg");
+                background-size: 30%;
+                background-repeat: no-repeat;
+                background-position: 35%;
+                padding: 50px 0;
+                div {
+                    justify-content: flex-end;
+                    .content {
+                        width: 43%;
+                        h3 {
+                            margin: 90px 0px 20px 0px;
+                            color: white;
+                            font-weight: 500;
+                            font-size: 2rem;
+                            width:65%;
+                        }
+                        ul {
+                            li {
+                                color:white;
+                                padding: 0px 0px 20px 10px;
+                                margin: 0 20px;
+                            }
+                        }
+                        button {
+                            margin: 0px 0px 20px 0px;
+                            &.red {
+                                width: 150px;
+                                background-color: #dd1f27;
+                            }
+                        }
+                        p {
+                            a {
+                                text-decoration: none;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+            & ~ .section-head:nth-of-type(2){
+                background-image: url("../images/forklift.svg");
+                div {
+                    .content {
+                        h3 {
+                            margin: 100px 0px 10px 0px;
+                            color: white;
+                            font-weight: 500;
+                            font-size: 2rem;
+                        }
+                        p {
+                            color: white;
+                            width:40%;
+                        }
+                        button {
+                            margin-top: 20px;
+                            &.black {
+                                width: 100px;
+                                background-color: #2f4960;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .boxes-section {
+            text-align:center;
+            height: 450px;
+            padding: 50px 0;
+            h3 {
+                margin: 20px 0px 20px 0px;
+                font-weight: 500;
+                font-size: 2rem;
+            }
+            .boxes-container {
+                padding-top: 30px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                .box {
+                    padding: 30px 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 20%;
+                    img {
+                        width:30%;
+                    }
+                    h4 {
+                        padding: 20px 0;
+                    }
+                    p {
+                        width:70%;
+                    }
+                }
+            }
+        }
+    }
+}

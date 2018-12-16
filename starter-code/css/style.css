@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", OpenSans, sans-serif; }
+  * body {
+    background-color: white; }
+    * body nav {
+      background-color: #C12127;
+      color: rgba(255, 255, 255, 0.8);
+      display: flex;
+      flex: 1;
+      justify-content: space-between;
+      align-items: center;
+      height: 40px; }
+      * body nav a {
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none; }
+      * body nav .top-left {
+        margin: 0px 0px 0px 20px; }
+      * body nav .top-links {
+        display: flex;
+        padding: 0;
+        margin: 0px 20px 0px 0px; }
+        * body nav .top-links li {
+          list-style: none;
+          margin: 0 10px; }
+    * body .section-head {
+      height: 450px;
+      background-image: url("../images/city-scape.svg");
+      background-size: cover; }
+      * body .section-head div {
+        display: flex;
+        justify-content: center;
+        flex-direction: row; }
+        * body .section-head div .content {
+          display: flex;
+          flex-direction: column;
+          width: 50%; }
+          * body .section-head div .content h2 {
+            margin: 100px 0px 10px 0px;
+            color: white;
+            font-weight: 500;
+            font-size: 2.3rem; }
+          * body .section-head div .content p {
+            color: white;
+            width: 57%; }
+          * body .section-head div .content button {
+            height: 40px;
+            border-radius: 50px;
+            color: white;
+            margin-top: 30px;
+            border: none; }
+            * body .section-head div .content button.orange {
+              width: 150px;
+              background-color: #fd8d00; }
+      * body .section-head .search-bar {
+        display: flex;
+        align-items: center; }
+        * body .section-head .search-bar .npm {
+          width: 110px;
+          height: 50px;
+          margin: 10px 0px 0px 20px; }
+        * body .section-head .search-bar input {
+          height: 50px;
+          margin: 10px 0px 0px 20px;
+          width: 80%;
+          background-color: #055271;
+          border: solid 1px #1e5d79;
+          padding: 10px; }
+          * body .section-head .search-bar input:placeholder {
+            margin: 15px 0px 0px 0px;
+            color: red; }
+        * body .section-head .search-bar p {
+          color: white;
+          margin: 0px 0px 0px 10px; }
+        * body .section-head .search-bar .teddy {
+          width: 35px;
+          height: 35px;
+          margin: 0px 0px 0px 10px; }
+      * body .section-head ~ .section-head:nth-of-type(1) {
+        height: 450px;
+        background: #24354a url("../images/collaboration.svg");
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-position: 35%;
+        padding: 50px 0; }
+        * body .section-head ~ .section-head:nth-of-type(1) div {
+          justify-content: flex-end; }
+          * body .section-head ~ .section-head:nth-of-type(1) div .content {
+            width: 43%; }
+            * body .section-head ~ .section-head:nth-of-type(1) div .content h3 {
+              margin: 90px 0px 20px 0px;
+              color: white;
+              font-weight: 500;
+              font-size: 2rem;
+              width: 65%; }
+            * body .section-head ~ .section-head:nth-of-type(1) div .content ul li {
+              color: white;
+              padding: 0px 0px 20px 10px;
+              margin: 0 20px; }
+            * body .section-head ~ .section-head:nth-of-type(1) div .content button {
+              margin: 0px 0px 20px 0px; }
+              * body .section-head ~ .section-head:nth-of-type(1) div .content button.red {
+                width: 150px;
+                background-color: #dd1f27; }
+            * body .section-head ~ .section-head:nth-of-type(1) div .content p a {
+              text-decoration: none;
+              color: white; }
+      * body .section-head ~ .section-head:nth-of-type(2) {
+        background-image: url("../images/forklift.svg"); }
+        * body .section-head ~ .section-head:nth-of-type(2) div .content h3 {
+          margin: 100px 0px 10px 0px;
+          color: white;
+          font-weight: 500;
+          font-size: 2rem; }
+        * body .section-head ~ .section-head:nth-of-type(2) div .content p {
+          color: white;
+          width: 40%; }
+        * body .section-head ~ .section-head:nth-of-type(2) div .content button {
+          margin-top: 20px; }
+          * body .section-head ~ .section-head:nth-of-type(2) div .content button.black {
+            width: 100px;
+            background-color: #2f4960; }
+    * body .boxes-section {
+      text-align: center;
+      height: 450px;
+      padding: 50px 0; }
+      * body .boxes-section h3 {
+        margin: 20px 0px 20px 0px;
+        font-weight: 500;
+        font-size: 2rem; }
+      * body .boxes-section .boxes-container {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; }
+        * body .boxes-section .boxes-container .box {
+          padding: 30px 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 20%; }
+          * body .boxes-section .boxes-container .box img {
+            width: 30%; }
+          * body .boxes-section .boxes-container .box h4 {
+            padding: 20px 0; }
+          * body .boxes-section .boxes-container .box p {
+            width: 70%; }
+
+/*# sourceMappingURL=style.css.map */
